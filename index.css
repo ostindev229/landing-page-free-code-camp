@@ -1,0 +1,125 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body{
+	background-color:#eee;
+	 font-family: 'Lato',sans-serif;
+}
+*{
+	box-sizing: border-box;
+}
+#logo{
+	width: 350px;
+	margin: 10px ;/* ceci servira à mettre de l'espace de tt les cotésgray
+nav ul li {/*Ceci est une façon d'appliqué du css comme à un sélecteur*/
+   display: inline;/* Pour imposé un type de balises au choix*/
+   margin-right: 100px;/*ceci servira à mettre de l'espace uniquement du coté droite*/
+   cursor: pointer;
+}
+nav ul li {
+	list-style: none;/*Pour ne pas symbolisé une liste*/
+	display: inline;
+	margin-right: 50px;
+	font-weight: bold;
+}
+nav{
+float:right ;
+}
+.main__title{
+font-size: 25px;
+text-align: center;
+}
+input{
+	width: 300px;
+	height: 20px;
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main__btn{
+background-color: #F1C40E;
+border: none;
+font-weight: bold;
+width: 170px;
+border-radius: 5px;
+margin-top: 10px;
+padding: 10px;
+margin-bottom: 60px;
+transition: background-color 0.5s ease-in-out;
+
+}
+.main__vertical h1,p{
+	margin: 0px;
+}
+.espace{
+	margin-left: 22px;
+}
+.icon{
+	color: #FF8C00;
+	margin-right: 70px;
+}
+.main__vertical{
+	display:flex ;
+	margin: 20px;
+}
+.video{
+  width: 560px;
+  height: 315px;
+  margin-left: 500px;
+  margin-top: 70px;
+}
+.price{
+	width: 300px;
+	height: 325px;
+	border: 1px solid black;
+	text-align: center;
+	margin-left: 20px;
+
+}
+h4{
+	background-color: #DDDDDD;
+	margin: 0px;
+	padding: 20px;
+}
+p {
+	margin-bottom: 10px;
+}
+.btn{
+	background-color: #F1C40E;
+	border: none;
+	margin-top: 30px;
+	width: 100px;
+	padding: 15px;
+	}
+	.three{
+		display: flex;
+		margin-left: 250px;
+		margin-top: 30px;
+	}
+	ul li{
+		list-style: none;
+		display: inline;
+      margin-right: 30px;
+      font-weight: bold;
+      font-size: 18px;
+	}
+	.oli{
+		text-align: right;
+		margin-right: 250px;
+		background-color:#DDDDDD ;
+      width: 990px;
+		height: 95px;
+		margin-left: 250px;
+		margin-top: 50px;
+
+
+
+	}
+	button:hover {
+		background-color:orange  ;
+	}
+	.arang{
+		margin-bottom: 90px;
+		margin-right: 20px;
+		
