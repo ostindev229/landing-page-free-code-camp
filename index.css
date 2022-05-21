@@ -20,13 +20,24 @@ nav ul li {
 	display: inline;
 	margin-right: 50px;
 	font-weight: bold;
+
 }
 nav{
 float:right ;
+
+}
+header{
+	  height: 60px;
+	  background-color:#eee ;
+	  position: fixed;
+	  left: 0px;
+	  top: 0px;
+	  right: 0px;
 }
 .main__title{
 font-size: 25px;
 text-align: center;
+margin-top: 60px;
 }
 input{
 	width: 300px;
@@ -53,7 +64,16 @@ transition: background-color 0.5s ease-in-out;
 	margin: 0px;
 }
 .espace{
-	margin-left: 22px;
+	margin-left: 50px;
+	font-size: 12px;
+	
+}
+.gauche{
+	margin-left: 74px;
+}
+.petit{
+	font-size: 15px;
+	
 }
 .icon{
 	color: #FF8C00;
@@ -107,7 +127,7 @@ p {
 	.oli{
 		text-align: right;
 		margin-right: 250px;
-		background-color:#DDDDDD ;
+		background-color:#dddddd ;
       width: 990px;
 		height: 95px;
 		margin-left: 250px;
@@ -122,4 +142,83 @@ p {
 	.arang{
 		margin-bottom: 90px;
 		margin-right: 20px;
-		
+}		/***************************Partie Responsive **************************************/
+
+@media screen and (max-width: 768px){
+
+#logo{ 
+	width: 65%;
+	margin: 0px;-
+	height: 30px;
+}
+ .video{
+ 	width: 70%;
+ 	height: 300px;
+ 	margin: 0px auto;
+ 	display: block;
+
+ }
+ nav{
+ 	float: none;
+ }
+ nav ul li {
+ 	font-size: 16px;
+ 	margin-right: 20px;
+ }
+ .main__title{
+ 	font-size: 20px;
+ 	margin-top:100px ;
+ }
+ input{
+ 	width: 225px;
+ }
+ .main__vertical{
+ 	display: block;
+ 	 }
+ 	 .icon{
+ 	 	margin-right: 0px;
+}
+.petit{
+	text-align: center;
+}
+.lola{
+	text-align: center;
+}
+.three{
+	display: block;
+	margin-left: 0px;
+	
+}
+.price{
+	margin-top: 10px;
+	margin: 0px auto;
+	display: block;
+	margin-bottom: 10px;
+
+}
+.oli{
+	width: 90%;
+	margin: 0px;
+	margin-top: 8px;
+}
+.arang{
+	margin-right: 7%;
+}
+body{
+	margin: 0px;
+
+  }
+  .center_case{
+  	display: block;
+	justify-content: center;
+	align-items: center;
+
+  }
+  header{
+  	height: 80px;
+  }
+  nav ul li{
+  	margin-left: 60px;
+  }
+}
+
