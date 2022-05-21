@@ -145,7 +145,6 @@ p {
 }		/***************************Partie Responsive **************************************/
 
 @media screen and (max-width: 768px){
-
 #logo{ 
 	width: 65%;
 	margin: 0px;-
@@ -159,11 +158,12 @@ p {
 
  }
  nav{
- 	float: none;
+ 	float: right;
  }
  nav ul li {
  	font-size: 16px;
- 	margin-right: 20px;
+ 	margin-left: -25px;
+ 	
  }
  .main__title{
  	font-size: 20px;
@@ -215,10 +215,13 @@ body{
 
   }
   header{
-  	height: 80px;
+  	height: 90px;
   }
   nav ul li{
-  	margin-left: 60px;
+  
+  }
+  .espace {
+  	margin: 0;
   }
 }
 
